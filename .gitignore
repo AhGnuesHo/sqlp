@@ -1,0 +1,33 @@
+# Ignore everything
+*
+
+# But not .md files
+!*.md
+
+# And not .gitignore
+!.gitignore
+
+# Even if they are in subdirectories
+!*/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore common editor/IDE files
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Ignore potential build directories
+build/
+dist/
+out/
+
+# Ignore potential dependency directories
+node_modules/
+vendor/
+
+# Ignore potential log files
+*.log
